@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="timer.css">
+        <script src="timer.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="timer">
+            <h1 id="time">00:00:00</h1>
+            <div id="icon" >
+                <a href="#" id="ref" onclick="refresh()"><i class="fa fa-refresh"></i></a>
+                <a href="#" id="play" onclick="play()"><i class="fa fa-play"></i></a>
+                <a href="#" id="pause" onclick="pause()"><i class="fa fa-pause"></i></a>
+            </div>
+        </div>
+        <div id="set">
+            <div>
+                <input id="hours" type="text" placeholder="Hours">
+            </div>
+            <div>
+                <input id="minutes" type="text" placeholder="Minutes">
+            </div>
+           <div>
+            <input id="seconds" type="text" placeholder="Seconds">
+           </div>
+            <div><button id="start" onclick="setwatch()" >Start</button></div>
+        </div>
+    </body>
+</html>

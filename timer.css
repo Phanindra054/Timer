@@ -1,0 +1,38 @@
+body{
+    background-image: url("clock.jpg");
+    text-align: center;
+}
+h1{
+    font-size: 350%;
+}
+#timer{
+    border: 3px solid black;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 550px;
+    background-color: darkturquoise;
+    color: white;
+}
+#play,#pause,#ref{
+    font-size: 200%;
+    margin-left: 50px;
+    color: black;
+}
+#icon{
+    margin-right: 100px;
+}
+#set{
+    border: 3px solid black;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 600px;
+    height: 200px;
+}
+#hours,#minutes,#seconds{
+    font-size: 120%;
+    margin-top: 10px;
+}
+#start{
+    font-size: 150%;
+    margin-top: 20px;
+}
